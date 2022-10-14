@@ -214,7 +214,7 @@ please see http://xml.resource.org/authoring/README.html. -->
           from a catalog zone a value of zero (0) is RECOMMENDED.</t>
 
           <t>Since there is no requirement to be able to query the catalog zone
-          via recursive namservers the NS records at the apex will not be used
+          via recursive nameservers the NS records at the apex will not be used
           and no parent delegation is required.  However, they are still
           required so that catalog zones are syntactically correct DNS zones.
           Any valid DNS name can be used in the NSDNAME field of such NS records
@@ -403,7 +403,7 @@ please see http://xml.resource.org/authoring/README.html. -->
           <section title="Zone Properties Specific to a Member Zone">
 
             <t>Default zone properties can be overridden on a per-zone basis by
-            specifying the property under the the sub-domain associated with the
+            specifying the property under the sub-domain associated with the
             member zone in the list of zones, e.g.:</t>
 
             <figure>
@@ -699,7 +699,7 @@ please see http://xml.resource.org/authoring/README.html. -->
         zone.</t>
 
         <t>Thanks to Brian Conry, Tony Finch, Evan Hunt, Patrik Lundin, Victoria Risk
-        and Carsten Strettman for reviewing draft proposals and offering comments and
+        and Carsten Strotmann for reviewing draft proposals and offering comments and
         suggestions.</t>
 
       </section>
